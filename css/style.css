@@ -1,0 +1,336 @@
+* {
+   font-family: 'Roboto', sans-serif;
+}
+
+body {
+   margin: 0;
+}
+
+header {
+   position: relative;
+}
+
+nav {
+   height: 50px;
+   background: #212121;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 3;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   padding: 16px 70px;
+   margin: 0;
+   list-style: none;
+}
+
+.menu .menu__link {
+   font-weight: 300;
+   font-size: 15px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.menu .menu__item {
+   border-right: 2px dotted black; 
+   padding-right: 28px;
+}
+
+.subheader {
+   position: absolute;
+   width: 100%;
+   height: 84px;
+   margin-top: 50px;
+   background: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader__logo {
+   display: block;
+   min-width: 100%;
+   padding-top: 16px;
+}
+
+.subheader .subheader__official {
+   margin-top: 6px;
+   font-weight: 100;
+   font-size: 13px;
+   color: #FFFFFF;
+   opacity: 0.5;
+}
+
+.subheader .subheader__call {
+   margin-top: 19px;
+   text-align: right;
+   opacity: .5;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 14px;
+   color: #FFFFFF;
+}
+
+.subheader .subheader__number {
+   display: block;
+   margin-top: 6px;
+   text-align: right;
+   font-weight: 400;
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   }
+
+.subheader .subheader__btn {
+   display: block;
+   margin-top: 19px;
+   width: 172px;
+   height: 46px;
+   background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+   border: none;
+   border-radius: 4px;
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+   }
+
+.promo {
+   min-height: 800px;
+   background: url('/img/uber_bg.jpg') center center/cover no-repeat;
+   padding: 150px 0 135px 0;
+}
+
+.promo .promo__header {
+   font-weight: 700;
+   font-size: 60px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   
+   line-height: 24px;
+}
+
+.promo .promo__subheader {
+   font-weight: 700;
+   font-size: 36px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0;
+   margin-top: 10px;
+   line-height: 24px;
+}
+
+.promo .promo__descr {
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 16px;
+}
+
+.promo .promo__btn {
+   display: block;
+   margin: 0 auto;
+   margin-top: 116px;
+   width: 259px;
+   height: 63px;
+   background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+   border: none;
+   border-radius: 4px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 63px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reason {
+   height: 763px;
+}
+
+.label {
+   margin: 0 auto;  
+   width: 113px;
+   height: 24px;
+   padding: 10px 12px 0 12px;
+   background: black;
+   font-weight: 300;
+   font-size: 11px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.title {
+   margin-bottom: 10;
+   margin-top: 38px;
+   font-weight: 700;
+   font-size: 38px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #222222;
+}
+
+.subtitle {
+   font-weight: 400;
+   font-size: 17px;
+   text-align: center;
+   color: #222222;
+}
+
+.reason .reason__item {
+   display: flex;
+   justify-content: space-between;
+}
+
+.reason .reason__img {
+   box-sizing: border-box;
+   width: 116px;
+   height: 116px;
+   padding: 26px;
+   background: #1EACC7;
+   border-radius: 100%;
+   margin-right: 25px;
+   margin-bottom: 55px;
+}  
+
+.reason .reason__img__3 {
+   box-sizing: border-box;
+   width: 116px;
+   height: 116px;
+   padding: 16px 33px;
+   background: #1EACC7;
+   border-radius: 100%;
+   margin-right: 25px;
+   margin-bottom: 55px;
+}
+
+.reason .reason__descr {
+   width: 371px;
+   height: 150px;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 21px;
+   color: #202020;
+}
+
+.reason span {
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 21px;
+   color: #1EACC7
+}
+
+.mobile {
+   min-height: 864px;
+   padding: 48px 0 79px 0;
+}
+.mobile .row {
+   margin-top: 32px;
+}
+.mobile__item {
+   position: relative;
+   width: 320px;
+   height: 280px;
+   margin: 0 auto;
+   margin-bottom: 19px;
+}
+.mobile__item1 {
+   background: url("../logo/mobile-1.jpg") center center/cover no-repeat;
+}
+.mobile__item2 {
+   background: url("../logo/mobile-2.jpg") center center/cover no-repeat;
+}
+.mobile__item3 {
+   background: url("../logo/mobile-3.jpg") center center/cover no-repeat;
+}
+.mobile__item4 {
+   background: url("../logo/mobile-4.jpg") center center/cover no-repeat;
+}
+.mobile__item5 {
+   background: url("../logo/mobile-5.jpg") center center/cover no-repeat;
+}
+.mobile__item6 {
+   background: url("../logo/mobile-6.jpg") center center/cover no-repeat;
+}
+.mobile__item-subtitle {
+   padding-top: 88px;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 31px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.mobile__item-plus {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 50%;
+   bottom: 35px;
+   transform: translateX(-50%);
+   width: 29px;
+   height: 29px;
+   background: #000000;
+   border-radius: 100%;
+   cursor: pointer;
+}
+
+.car {
+   position: relative;
+   height: 898px;
+}
+
+.color {
+   height: 502px;
+   background: #070716;
+   padding-top: 59px;
+}
+
+.img-car {
+   position: absolute;
+   bottom: 120px;
+   left: 280px;
+}
+
+.img-car img {
+   width: 759px;
+   height: 480px;
+}
+
+.label-white {
+   background: white;
+   color: #070716;
+}
+
+.title-white {
+   color: #FFFFFF;
+}
+
+.subtitle-white {
+   color: #FFFFFF;
+}
+
+.car__marketing {
+   position: absolute;
+   bottom: 57px;
+   left: 550px;
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 24px;
+   text-align: center;
+   color: #222222;
+}
